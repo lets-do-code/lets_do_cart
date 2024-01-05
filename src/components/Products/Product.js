@@ -40,7 +40,7 @@ export default function Product(props) {
       className={` mt-4  border rounded-2 shadow-lg d-flex flex-column hover-shadow box prodct ${isVisible ? "active" : ""
         } `}
       ref={elementRef}
-      style={{ overflow: "hidden" }}
+      style={{ width: '220px', overflow: "hidden" }}
       onClick={handleclick}
     >
       <div
